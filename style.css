@@ -11,7 +11,7 @@
 }
 
 *::selection {
-    background: #fff;
+    background: #ffc401;
     color: #182747;
 }
 
@@ -173,6 +173,14 @@ header .navbar ul li a:hover{
     padding: 1rem 0;
 }
 
+.about .vidio video {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    margin: 20px auto;
+}
+
 .about .row{
     display: flex;
     align-items: center;
@@ -276,7 +284,6 @@ header .navbar ul li a:hover{
     text-align: center;
     font-size: 2rem;
     color:#fff;
-    /* background:var(--yellow); */
 }
 
 .portfolio {
@@ -317,47 +324,15 @@ header .navbar ul li a:hover{
     margin-top: 15rem;
 }
 
-.contact .row{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
 .contact .row .content{
+    margin-top: 100px;
     flex:1 1 30rem;
     padding:4rem;
     padding-bottom: 0;
 }
 
-.contact .row form{
-    flex:1 1 45rem;
-    padding:2rem;
-    margin:2rem;
-    margin-bottom: 4rem;
-}
-
-.contact .row form .box{
-    padding:1.5rem;
-    margin:1rem 0;
-    background:#5F6F94;
-    color:#fff;
-    text-transform: none;
-    font-size: 1.7rem;
-    width:100%;
-}
-
-.contact .row form .box::placeholder{
-    color: #fff;
-    text-transform: capitalize;
-}
-
-.contact .row form .message{
-    height: 15rem;
-    resize: none;
-}
-
 .contact .row .content .title{
+    text-align: right;
     text-transform: uppercase;
     color:#fff;
     font-size: 3rem;
@@ -380,7 +355,7 @@ header .navbar ul li a:hover{
 }
 
 .contact .row .content .info h3{
-    display: flex;
+    text-align: right;
     align-items: center;
     font-size: 2rem;
     color:#eee;
@@ -401,9 +376,8 @@ header .navbar ul li a:hover{
 }
 
 .footer {
-    background-color: #5F6F94;
+    background-color: #F3E0B5;
     padding: 5px;
-    margin-top: 20px;
 }
 
 .footer p {
@@ -414,7 +388,7 @@ header .navbar ul li a:hover{
 
 .footer p a {
     text-decoration: none;
-    color: #F3E0B5;
+    color: #182747;
 }
 
 .footer p a:hover {
