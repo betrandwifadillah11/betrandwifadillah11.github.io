@@ -25,7 +25,7 @@ html::-webkit-scrollbar{
 }
 
 html::-webkit-scrollbar-track{
-    background:#182747;
+    background:#eee;
 }
 
 html::-webkit-scrollbar-thumb{
